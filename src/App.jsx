@@ -1,17 +1,16 @@
+import Header from './components/Header'
+import TopicList from './components/TopicList'
+import Footer from './components/Footer'
+import './App.css'
+
 function App() {
+  const topics = ['JSX', 'Components', 'Props', 'Fragments']
+
   return (
     <>
-      <h1>React Fundamentals</h1>
-      <p>Learning React with Vite</p>
-
-      <h2>Topics I am learning</h2>
-
-      <ul>
-        <li>JSX</li>
-        <li>Components</li>
-        <li>Props</li>
-        <li>Fragments</li>
-      </ul>
+      <Header />
+      <TopicList topics={topics} />
+      <Footer />
     </>
   )
 }
