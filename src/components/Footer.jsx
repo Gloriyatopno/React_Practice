@@ -1,9 +1,9 @@
 function Footer() {
   return (
-    <>
+    <footer className="footer">
       <hr />
       <p>React Practice Project</p>
-    </>
+    </footer>
   )
 }
 

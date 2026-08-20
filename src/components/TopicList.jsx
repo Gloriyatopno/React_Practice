@@ -1,11 +1,13 @@
 function TopicList({ topics }) {
   return (
-    <section>
+    <section className="topics">
       <h2>Topics I am learning</h2>
 
       <ul>
         {topics.map((topic) => (
-          <li key={topic}>{topic}</li>
+          <li className="topic" key={topic}>
+            {topic}
+          </li>
         ))}
       </ul>
     </section>

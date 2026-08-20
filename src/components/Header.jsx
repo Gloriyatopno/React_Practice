@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header>
+    <header className="header">
       <h1>React Fundamentals</h1>
       <p>Learning React with Vite</p>
     </header>
