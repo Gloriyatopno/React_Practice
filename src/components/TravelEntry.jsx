@@ -1,4 +1,11 @@
-function TravelEntry({ title, location, date, description }) {
+function TravelEntry({
+  title,
+  location,
+  date,
+  description,
+  rating,
+  isFavorite
+}) {
   return (
     <article className="travel-entry">
       <h2>{title}</h2>
