@@ -1,4 +1,5 @@
 import TravelEntry from './components/TravelEntry'
+import './App.css'
 
 function App() {
   const travelData = [

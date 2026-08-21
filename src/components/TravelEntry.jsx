@@ -12,6 +12,8 @@ function TravelEntry({
       <p>{location}</p>
       <p>{date}</p>
       <p>{description}</p>
+      <p>Rating: {rating}/5</p>
+      <p>{isFavorite ? "Favorite" : "Not a favorite"}</p>
     </article>
   )
 }
